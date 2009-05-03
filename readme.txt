@@ -1,9 +1,9 @@
 === Titles to Tags ===
 Contributors: dragonflyeye
 Tags: tags, titles, automation
-Requires at least: 2.3.x
-Tested up to: 2.3.2
-Stable tag: 1.4
+Requires at least: 2.7
+Tested up to: 2.7.1
+Stable tag: 2.0
 
 This plugin automatically converts keywords in a post title to tags, while ignoring a user-editable list of words.
 
@@ -63,6 +63,10 @@ This plugin will put tags on any post that is opened in the Write screen and the
 * 1.2 ~ Name collision with another plugin, FeedWordPress, corrected
 * 1.3 ~ Whoops!  Didn't put the title in the meta data, how silly!
 * 1.4 ~ SVN commit to include tag
+* 2.0 ~ Revamped version based on experiments with these function in another plugin.
+		~ using WP-style function notes
+		~ designed to work with both WP and WPMU
+		~ lowerNoPunc function now removes posessive 's from words
 
 == Acknowledgements ==
 
