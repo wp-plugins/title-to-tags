@@ -51,6 +51,9 @@ function titleToTags($post_id) {
 		return $post_id;
 	} else {
 		$post = get_post($post_id);
+		if(wp_get_post_tags($post_id)) {
+			return false;
+		}
 		$title = $post->post_title;
 		$stopwords = get_option('hn_title_to_tags');
 		// do we have stopwords in the db?  If not, use the default list:
